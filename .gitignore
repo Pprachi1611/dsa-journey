@@ -1,41 +1,6 @@
-# Compiled Java class files
 *.class
-out/
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Package files
-*.jar
-*.war
-*.ear
-
-# JVM crash logs
-hs_err_pid*
-
-# IntelliJ IDEA
-.idea/
-*.iml
-out/
-
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
-
-# VS Code
 .vscode/
-
-# Gradle
-.gradle/
+out/
+bin/
 build/
-
-# Maven
 target/
-
-# Windows
-Thumbs.db
