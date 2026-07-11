@@ -29,12 +29,12 @@ bin/
 # VS Code
 .vscode/
 
-# Maven
-target/
-
 # Gradle
 .gradle/
 build/
+
+# Maven
+target/
 
 # Windows
 Thumbs.db
