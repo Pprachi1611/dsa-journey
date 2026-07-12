@@ -23,5 +23,6 @@ class TwoSum{
             }
         }
         }
+        sc.close();
     }
 }
