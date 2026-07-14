@@ -11,19 +11,23 @@ public class array_duplicate {
             a[i]=sc.nextInt();
         }
         HashSet<Integer> s=new HashSet<>();
-        for(int i=0;i<a.length;i++)
+        for(int num :a)
         {
-            if(s.contains(a[i]))
+            if(s.contains(num))
             {
-                System.out.println("The duplicate element is :" +a[i]);
+               // System.out.println("The duplicate element is :" +a[i]);
+                System.out.println("The duplicate element found!!!!");
+                return;
             }
             else
             {
-                  s.add(a[i]);
+                  s.add(num);
             }
 
         }
-         System.out.println("The unique elements are:"+s);
+      
+        System.out.println("No duplicate elements found.");
+       // System.out.println("The unique elements are:"+s);
         sc.close();
     }
     
