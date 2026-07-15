@@ -143,9 +143,3 @@ HashMap is used when both key and value are required.
 
 ---
 
-# Similar Problems
-
-- Happy Number
-- Longest Consecutive Sequence
-- Missing Number
-- Single Number
